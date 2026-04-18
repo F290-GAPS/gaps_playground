@@ -1,0 +1,10 @@
+# Scripts
+
+```sql
+create table users(
+  id int primary key,
+  username varchar(100) not null,
+  password varchar(50) not null,
+  role varchar(20) not null default 'user'
+);
+```
